@@ -16,12 +16,16 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 88vh;
+}
+.container{
+  display: block;
 }
 .container, .thank-you{
   background-color: var(--dark-blue);
   padding: 1.5rem;
   border-radius: 0.7rem;
+  max-width: 410px;
 }
 .container > img{
     background-color: hsl(213, 21%, 23%);
@@ -57,7 +61,6 @@ p{
  width: 3rem;
  height: 3rem;
  border: none;
- background-color: hsl(213, 21%, 23%);
  border-radius: 3rem;
  cursor: pointer;
  transition: 0.3s;
@@ -69,6 +72,7 @@ p{
 .btn:focus{
     background-color: var(--light-grey);
     color: var(--white);
+    
 }
 .submit{
    background-color: var(--orange);
@@ -80,7 +84,6 @@ p{
    padding: 16px 28px;
    cursor: pointer;
    transition: 0.3s;
-
    text-align: center;
    letter-spacing: 0.1rem;
 }
